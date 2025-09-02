@@ -1,0 +1,353 @@
+/* // Extra large devices */
+@media (min-width: 1200px) {  }
+
+/* // Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .bannertext h2 {
+        font-size: 36px;
+    }
+    .desinelasttext p {
+        font-size: 16px;
+    }
+    .desinefirst {
+        padding: 161px 0;
+    }
+    .desinefirst img {
+        top: -188px;
+        left: -56px;
+    }
+    .wellnesstext h3 {
+        font-size: 39px;
+    }
+    .wellnesstext p {
+        font-size: 18px;
+    }
+    .modelrighttextdown h5 {
+        margin-top: 11px;
+        margin-left: 160px;
+    }
+    .modelrighttextdown p {
+        margin-top: 10px;
+    }
+    .modelright {
+        padding: 212px 0;
+    }
+    .modelrightmain {
+        margin-bottom: 36px;
+    }
+    .modelrightlast {
+        padding: 201px 0;
+    }
+    .marketoneimg img {
+        left: -105px;
+    }
+    .marketright h3 {
+        font-size: 42px;
+    }
+    .marketright a {
+        font-size: 23px;
+        margin-left: 60px;
+    }
+    .evrythingtext h2 {
+        font-size: 56px;
+    }
+    .everythingitem img{
+        width: 100%;
+    }
+}
+
+/* // Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbarright {
+        text-align: center;
+        margin-left: 77px;
+    }
+    .bannertext {
+        position: absolute;
+        top: 83px;
+        left: 20px;
+        text-align: center;
+    }
+    .bannertext h2 {
+        font-size: 52px;
+    }
+    .humantoptext h2 {
+        font-size: 30px;
+    }
+    .humanleftimg{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .humanleftimg{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .desinefirst img {
+        left: -30px;
+    }
+    .desineleftboth {
+        margin-bottom: 20px;
+    }
+    .wellnesstext h3 {
+        font-size: 29px;
+    }
+    .wellnesstext p {
+        font-size: 14px;
+    }
+    .modelleft {
+        margin-bottom: 105px;
+    }
+    .modelimg {
+        left: 185px;
+    }
+    .modelrighttextdown h5 {
+        margin-left: 545px;
+    }
+    .modelimglast {
+        left: 215px;
+    }
+    .marketright h3 {
+        font-size: 33px;
+        margin-top: 40px;
+    }
+    .marketright a {
+        font-size: 24px;
+        margin-left: 230px;
+    }
+    .evrythingtext h2 {
+        font-size: 48px;
+    }
+    .everythingitem img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .plantlastfirst p {
+        text-align: center;
+    }
+    .plantlastfirst a {
+        margin-left: 215px;
+    }
+    .plantlastseceond{
+     text-align: center;
+     margin-top: 40px;
+    }
+    .plantlastseceond h2 {
+        margin-bottom: 25px;
+    }
+    .plantlasticontext{
+        margin-top: 40px;
+    }
+    .lasticon i{
+    margin-left: 300px;
+    }
+ }
+
+/* // Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-brand img {
+        margin-left: 20px;
+    }
+    .navbarright {
+        text-align: center;
+        margin-left: 77px;
+    }
+    .bannertext {
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        text-align: center;
+    }
+    .bannertext h2 {
+        font-size: 26px;
+    }
+    .humantoptext h2 {
+        font-size: 30px;
+    }
+    .humanleftimg{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .humanleftimg{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .desinelasttext p {
+        font-size: 16px;
+    }
+    .desinefirst img {
+        left: -84px;
+        top: -111px;
+    }
+    .desineleftboth {
+        margin-bottom: 20px;
+    }
+    .wellnesstext h3 {
+        font-size: 29px;
+    }
+    .wellnesstext p {
+        font-size: 14px;
+        padding: 0 45px;
+    }
+    .modelleft {
+        margin-bottom: 105px;
+    }
+    .modelimg {
+        left: 95px;
+    }
+    .modelrighttextdown h5 {
+        margin-left: 370px;
+    }
+    .modelimglast {
+        left: 124px;
+    }
+    .marketright h3 {
+        font-size: 33px;
+        margin-top: 40px;
+    }
+    .marketoneimg img {
+        position: absolute;
+        top: -130px;
+        left: -140px;
+    }
+    .marketright a {
+        font-size: 24px;
+        margin-left: 150px;
+    }
+    .evrythingtext h2 {
+        font-size: 42px;
+    }
+    .everythingitem img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .plantlastfirst p {
+        text-align: center;
+    }
+    .plantlastfirst a {
+        margin-left: 125px;
+    }
+    .plantlastseceond{
+     text-align: center;
+     margin-top: 40px;
+    }
+    .plantlastseceond h2 {
+        margin-bottom: 25px;
+    }
+    .plantlasticontext{
+        margin-top: 40px;
+    }
+    .lasticon i{
+    margin-left: 200px;
+    }
+}
+
+/* // Extra small devices */
+@media (max-width: 575.98px) {  
+    .navbar-nav{
+        text-align: center;
+    }
+    .navbar-brand img {
+        margin-left: 40px;
+    }
+    .navbarright {
+        text-align: center;
+        margin-left: 77px;
+    }
+    .bannertext {
+        position: absolute;
+        top: 70px;
+        left: 20px;
+        text-align: center;
+    }
+    .bannertext h2 {
+        font-size: 26px;
+    }
+    .humantoptext h2 {
+        font-size: 30px;
+    }
+    .humanleftimg{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .humanleftimg{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .desineicon {
+        margin-left: 38px;
+    }
+    .desinelasttext p {
+        font-size: 16px;
+    }
+    .desinefirst img {
+        left: -84px;
+        top: -111px;
+    }
+    .desineleftboth {
+        margin-bottom: 20px;
+    }
+    .wellnesstext h3 {
+        font-size: 29px;
+    }
+    .wellnesstext p {
+        font-size: 14px;
+        padding: 0 45px;
+    }
+    .modelleft {
+        margin-bottom: 105px;
+    }
+    .modelimg {
+        left: 95px;
+    }
+    .modelrighttextdown h5 {
+        margin-left: 370px;
+    }
+    .modelimglast {
+        left: 124px;
+    }
+    .marketright h3 {
+        font-size: 33px;
+        margin-top: 40px;
+    }
+    .marketoneimg img {
+        position: absolute;
+        top: -130px;
+        left: -140px;
+    }
+    .marketright a {
+        font-size: 24px;
+        margin-left: 150px;
+    }
+    .evrythingtext h2 {
+        font-size: 42px;
+    }
+    .everythingitem img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .plantlastfirst p {
+        text-align: center;
+    }
+    .plantlastfirst a {
+        margin-left: 125px;
+    }
+    .plantlastseceond{
+     text-align: center;
+     margin-top: 40px;
+    }
+    .plantlastseceond h2 {
+        margin-bottom: 25px;
+    }
+    .plantlasticontext{
+        margin-top: 40px;
+    }
+    .lasticon i{
+    margin-left: 200px;
+    }
+}

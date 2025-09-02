@@ -1,0 +1,483 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+ul , ol{
+	list-style-type: none;
+}
+h1 h2 h3 h4 h5 h6 p{
+	margin: 0;
+	padding: 0;
+	line-height: 0.8;
+}
+/* all common css end */
+
+
+/* header part start */
+#Header{
+	/* padding: 10px 0; */
+	background: #69C493;
+}
+.headtext h2{
+	font-family: "Rubik", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+/* header part end */
+/* navbar part start */
+.navbar-brand img{
+	margin-left: 80px;
+}
+.nav-item a{
+	font-family: "Rubik", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #256400;
+   margin	: 0 10px;
+}
+.navbarright{
+	margin-right: 60px;
+}
+.navbarright a{
+	font-family: "Rubik", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #256400;
+	display: inline-block;
+	padding-right: 10px;
+}
+.navbarright i{
+	display: inline-block;
+	font-size: 20px;
+	color: #256400;
+	padding-left: 10px;
+}
+/* navbar part end */
+/* banner part start */
+#banner{
+	padding: 40px;
+	background: #DAF2E5;
+}
+.bannerfull{
+	position: relative;
+}
+.bannertext {
+	position: absolute;
+	top: 335px;
+	left: 33px;
+}
+.bannertext h2{
+	font-family: "Artifika", serif;
+	font-weight: 400;
+	font-size: 62px;
+	color: #223915;
+}
+.bannertext a{
+	font-family: "Rubik", serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #02021D;
+	padding: 10px 30px;
+	background: #69C593;
+	margin-top: 20px;
+}
+
+ .bannerimg img{
+	width: 100%;
+}
+.slick-dots{
+	position: absolute;
+	bottom:50px ;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.slick-dots li{
+	display: inline-block;
+	margin-right: 10px;
+	
+}
+.slick-dots button {
+	background: white;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	border: none;
+	list-style: none;
+	font-size: 10px;
+}
+.slick-dots li.slick-active button{
+	background: black;
+}
+/* banner part end */
+/* human part start */
+#human{
+	padding: 40px;
+	background: #DAF2E5;
+}
+.humanmaindiv{
+	padding: 30px 0;
+	background: #E7FFCE;
+	border-radius: 20px;
+}
+.humantoptext h2{
+	text-align: center;
+	font-family: "Artifika", serif;
+	font-weight: 400;
+	font-size: 44px;
+	color: #256400;
+	margin-bottom: 50px;
+}
+.humanright h3{
+	font-family: "Rubik", serif;
+	font-size: 22px;
+	font-weight: 400;
+	color: #02021D;
+	line-height: 24px;
+	text-align: center;
+}
+/* human part end */
+/* plants part start */
+#plants{
+	padding: 40px;
+	background: #DAF2E5;
+}
+.plantsitem{
+    border-radius: 10px;
+	background: #E7FFCE;
+margin-bottom: 20px;
+
+}
+.plantimg{
+	text-align: center;
+}
+.plantsitem h3{
+	margin-top: 40px;
+	font-family: "Artifika", serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #256400;
+	padding-left: 20px;
+}
+.plantstext {
+	display: flex;
+	justify-content: space-between;
+}
+.plantstext p{
+	margin-top: 40px;
+	color: #8CB871;
+	padding-left: 20px;
+	font-family: "Rubik", serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+.plantstext h5{
+	margin-top: 40px;
+	color: #8CB871;
+	padding-right: 20px;
+	font-family: "Rubik", serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+/* plants part end */
+/* desine part start */
+#desine{
+	padding: 40px;
+	background: #DAF2E5;
+}
+.desineleftmain{
+	background: #B6DB9F;
+}
+.desineleftmain h2{
+	text-align: center;
+	font-family: "Artifika", serif;
+	font-weight: 800;
+	font-size: 50px;
+	color: #256400;
+	padding-top: 40px;
+	padding-bottom: 140px;
+}
+.desineleftboth{
+	display: flex;
+}
+.desinefirst{
+	background: #BAD8F4;
+	width: 50%;
+	position: relative;
+	padding: 200px 0;
+}
+.desinefirst img {
+	position: absolute;
+	top: -110px;
+	left: -15px;
+}
+.desinelast{
+width: 50%;
+}
+.desineicon{
+	margin-left: 60px;
+	
+}
+.desineicon i:hover{
+	color: #859D76;
+}
+.desineicon i{
+	color: #256400;
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+.desinelasttext p{
+	font-family: "Poppins", serif;
+	padding: 0 50px;
+	font-weight: 300;
+	font-size: 22px;
+	color: #256400;
+}
+.desineright{
+	background: #69C493;
+	padding: 41px 0;
+}
+.desineright img{
+	width: 100%;
+}
+.desinerighttext {
+	background: #B6DB9F;
+	padding: 25px 0;
+}
+.desinerighttext h3{
+    padding-top: 40px;
+	font-family: "Artifika", serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #256400;
+	padding-left: 20px;
+}
+/* desine part end */
+/* wellness part start */
+#wellness{
+	padding: 40px;
+	background: #69C493;
+}
+.wellnessbackground{
+	background: url(../images/wellness.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px 0;
+}
+.wellnesstext h3{
+	text-align: center;
+	font-family: "Artifika", serif;
+	font-weight: 800;
+	font-size: 48px;
+	color: #FFFFFF;
+	margin-bottom: 60px;
+}
+.wellnesstext p{
+	text-align: center;
+	font-family: "Artifika", serif;
+	font-weight: 400;
+	font-size: 26px;
+	color: #FFFFFF;
+	padding: 0 135px;
+}
+/* wellness part end */
+/* model part start */
+#model{
+	padding-top: 80px;
+	padding-bottom: 20px;
+	background: #69C493;
+}
+.modelleft{
+	background: #BAD8F4;
+	border-radius: 20px;
+}
+.modelleft img{
+	width: 100%;
+}
+.modellefttext h3{
+	font-family: "Artifika", serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #256400;
+	padding-left: 20px;
+}
+.modelrightmain{
+	position: relative;
+	margin-bottom: 85px;
+}
+.modelright{
+	background: #DAF2E5;
+	padding: 230px 0;
+}
+.modelimg{
+	position: absolute;
+	top: -143px;
+	left: 0;
+}
+.modelrighttext h3{
+	font-family: "Artifika", serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #256400;
+	padding-left: 20px;
+}
+.modelrighttext{
+	position: absolute;
+	top: 336px;
+	left: 0;
+}
+.modelrighttextdown{
+	display: flex;
+	justify-content: space-between;
+}
+.modelrighttextdown p{
+	margin-top: 40px;
+	color: #8CB871;
+	padding-left: 20px;
+	font-family: "Rubik", serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+.modelrighttextdown h5 {
+	color: #8CB871;
+	padding-right: 20px;
+	font-family: "Rubik", serif;
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 44px;
+	margin-left: 218px;
+}
+.modelrightlast{
+	background: #B6DB9F;
+	padding: 230px 0;
+}
+.modelimglast {
+	position: absolute;
+	top: -115px;
+	left: 45px;
+}
+/* model part end */
+/* market part start */
+#market{
+	padding: 40px;
+	background: #DAF2E5;
+}
+.marketleftmain{
+	display: flex;
+	position: relative;
+}
+.marketleftone{
+	padding: 300px 0;
+	background: #BAD8F4;
+	width: 50%;
+}
+.marketlefttwo{
+	padding: 20px 0;
+	background: #69C493;
+	width: 50%;
+}
+.marketoneimg img {
+	position: absolute;
+	top: -130px;
+	left: -70px;
+}
+.marketright h3{
+	font-family: "Artifika", serif;
+	font-weight: 800;
+	font-size: 50px;
+	color: #256400;
+	text-align: center;
+}
+.marketright a{
+padding: 10px 30px;
+background: #69C493;
+color: #FFFFFF;
+font-family: "Rubik", serif;
+font-size: 32px;
+font-weight: 400;
+margin-top: 40px;
+border-radius: 10px;
+margin-left: 75px;
+}
+/* market part end */
+/* everything part start */
+#everything{
+	padding: 80px 0;
+	background-color: #FFFFFF;
+}
+.evrythingtext h2{
+	text-align: center;
+	font-family: "Artifika", serif;
+	font-weight: 800;
+	font-size: 80px;
+	color: #256400;
+	margin-bottom: 100px;
+}
+/* everything part end */
+/* plantslast part start */
+#plantslast{
+	padding: 40px 0;
+	background: #69C493;
+}
+.plantlastfirst p{
+	margin-top: 40px;
+	color: #FFFFFF;
+font-family: "Rubik", serif;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.plantlastfirst a{
+	color: #FFFFFF;
+font-family: "Rubik", serif;
+font-size: 16px;
+font-weight: 400;
+padding: 10px 20px;
+border: 2px solid #FFFFFF;
+border-radius: 30px;
+}
+.plantlastseceond h2{
+	color: #FFFFFF;
+font-family: "Rubik", serif;
+font-size: 20px;
+font-weight: 800;
+margin-bottom: 50px;
+}
+.plantlastseceond p{
+	color: #FFFFFF;
+font-family: "Rubik", serif;
+font-size: 16px;
+font-weight: 400;
+
+}
+.plantlasticontext{
+	display: flex;
+	margin-top: 155px;
+}
+.plantlasticontexttwo{
+	display: flex;
+	margin-top: 10px;
+}
+.plantlasticontextthree{
+	display: flex;
+	margin-top: 10px;
+}
+.lasticon i{
+color: #FFFFFF;
+font-size: 20px;
+}
+.lasttext a{
+	color: #FFFFFF;
+	padding-left: 20px;
+	font-family: "Rubik", serif;
+font-size: 16px;
+font-weight: 400;
+}
+/* plantslast part end */
